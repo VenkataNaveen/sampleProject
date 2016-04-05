@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+
+
+var d=new Date();
+function myfunction1()
+{
+ d.setDate(d.getDate() -1);
+var n = d.toDateString();
+document.getElementById("demo").innerHTML=n;
+}
+function myfunction2()
+{
+ 
+ var m=d.setDate(d.getDate() +1);
+document.getElementById("demo").innerHTML=m;
+}
+</script>
+</head>
+<body>
+<button oclick="myfunction1()">b1</button>
+<p id="demo">fdhgfgk</p>
+<button oclick="myfunction2()">b2</button>
+</body>
+</html>
